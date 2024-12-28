@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: whitesmoke;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    margin-top: 50px;;
+    margin-bottom: 200px;
+}
+.links{
+    text-decoration: none;
+    margin-right:30px;
+    color:black;
+}
+.login-buttons{
+    text-decoration: none;
+    margin-left: auto;
+    color:black;
+}
+#login{
+    background-color: blue;
+    border-radius:15%;
+    padding:10px;
+    color:#fff;
+}
+.testimonial-section{
+    
+
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: auto;
+    width: 88%;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+
+.login-form{
+    background:#fff;
+    padding: 32px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width:100%;
+    margin-left: 100px;
+  }
+  .login-form h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+  
+  .login-form p {
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  form label {
+    font-weight: bold;
+    font-size: 0.9rem;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 0.8rem;
+    margin: 0.5rem 0 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 0.9rem;
+  }
+  
+  .password-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .password-container input {
+    flex: 1;
+  }
+  
+  .password-container .show-password {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+  
+  .login-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.8rem;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .login-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .divider {
+    text-align: center;
+    margin: 1rem 0;
+    font-size: 0.9rem;
+    color: #aaa;
+  }
+  
+  .google-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: #555;
+    border: 1px solid #ddd;
+    padding: 0.8rem;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .google-login img {
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  .google-login:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .login-form p a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .login-form p a:hover {
+    text-decoration: underline;
+  }
+  .testimonial-card{
+    background:#fff;
+    padding: 64px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width:100%;
+    margin: left 30px;
+  }
+  .para{
+    color:#333;
+    font-size:20x;
+    margin-bottom:20px;
+  }
+  .profile{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .profileimg{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    margin-right: 10px;
+  }
+  .profile .name{
+    font-weight: bold;
+    color:#333;
+  }
+  .read-more{
+    padding:10px 20px;
+    background:#f0f0f0;
+    border: 1pxsolid #ddd;
+    border-radius:6px;  
+    text-align: center;
+    font-weight:bold;
+    color: rgba(0, 0, 0, 0.981);
+    text-decoration: none;
+  }
+  .buttons{
+    background: #fff;
+    padding:32px;
+    border-radius:15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  
+}
+footer{
+    background: white;
+    margin-left: 0%;
+    padding-top: 100px;
+    padding-left: 50px;
+    box-shadow: 0 0px 6px grey;
+
+}
+.footer-box{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+}
+
+.footer-details{
+    margin-right: auto;
+}
+.trade-mark{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+  
